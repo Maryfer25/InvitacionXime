@@ -1,0 +1,284 @@
+*{
+    body {
+        margin: 0;
+        font-family: 'Georgia', serif, j;
+        background: linear-gradient(#eef5e9, #ffffff);
+        color: #4b5d3a;
+        text-align: center;
+        background-image: url(Imagenes/fondo1.jpg);
+        background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-attachment: fixed; /* (Opcional) Fija la imagen al hacer scroll */
+        font-size: 20px;
+    }
+}
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .overlay h1 {
+      font-size: 2rem;
+    }
+
+  }
+
+/* CONTENEDOR 1 */
+    .contenedor1 {
+        width: 80%;
+        max-width: 500px;
+        margin: auto;
+        background: linear-gradient(#eef5e9, #ffffff);
+    }
+  /* TITULO DE 16 AÑOS */
+      h1 {
+      font-size: 49.8px;
+      letter-spacing: 3px;
+      margin-top: 30px;
+      margin-block-end: 5px;
+      padding: 40px;
+      padding-block-end: 0px;
+      color: white;
+    }
+  /* NOMBRE DE LA QUINSEAÑERA */
+    .Quinseañera{
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;
+        font-size: 80px;
+        color: #fbfbfb;
+        margin: 10px 0;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        margin-block-start: -10px;
+    }
+  /* IMAGEN DE TIANA Y CORONA */
+    .Imagen-corona{
+        max-width: 250px;
+        margin: auto;
+        padding: 0%;
+      }
+
+    .Imagen-Tiana1{
+        max-width: 300px;
+        margin: auto;
+      }
+  /* BOTON DE MUSICA*/
+    .Txt_music{
+      color: white;
+      background: rgba(245, 245, 220, 0.099);
+    }
+    
+    .Play_btn {
+        margin: -15px auto;
+        width: 147px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        /* SECCIONES */
+.section1 {
+
+    text-align: center;
+    background-image: url(Imagenes/fondo1.jpg) ;
+    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* (Opcional) Fija la imagen al hacer scroll */
+    opacity: 0.9;
+    padding-block-end: 25px;
+  }
+
+/* CONTENEDOR 2 */
+  /* DEDICATORIA */
+    .text {
+        font-size: 20px;
+        line-height: 1.3;
+        text-align: justify;
+        padding: 30px;
+    }
+    .Img-dedicatoria{
+        width: 100%;
+        display: block;
+    }
+    .txt2{
+        font-size: 40px;
+        line-height: 1.3;
+        text-align: center;
+        margin: auto;
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        margin-block-start: 10px;
+    }
+    .txt3{
+        font-size: 40px;
+        line-height: 1.3;
+        text-align: center;
+        margin: auto;
+        font-style: italic;
+        font-family: 'Dancing Script', cursive;
+        margin: 10px 0;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        margin-block-start: -10px;
+    }
+  /* FECHA */
+  
+    .save-date {
+        margin-block-start: 40px;
+    }
+    .dia {
+    font-size: 90px;
+    font-weight: bold;
+    margin-block-start: -30px;
+    }
+    .mes {
+    font-size: 30px;
+    letter-spacing: 4px;
+    }
+    .anio {
+        font-size: 30px;
+        color: #888;
+      }
+  /* FECHA DE CONFIRMACIÓN */
+
+  .btn {
+      display: inline-block;
+      margin: 15px 0;
+      padding: 12px 25px;
+      background: #6c8c4e;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+  }
+      .indicaciones {
+        font-size: 15px;
+        color: #888;
+        margin-block-start: -10px;
+      }
+/* CONTENEDOR 3 */
+
+  /* Tarjeta */
+    .contador {
+        text-align: center;
+        background-image: url(Imagenes/Img2.jpg) ;
+        background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        opacity: 0.8;
+        padding-block-end: 100px;
+        padding-block-start: 15px;
+        margin-block-start: 20px;
+          background-attachment: fixed; /* (Opcional) Fija la imagen al hacer scroll */
+}
+  /* Días grandes */
+    #dias {
+        font-size: 100px;
+        font-weight: bold;
+        color: black;
+      }
+
+  /* Tiempo */
+    .tiempo {
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: black;
+      }
+  /* Mensaje */
+    .mensaje {
+        margin-top: 20px;
+        font-size: 16px;
+        color: black;
+      }
+
+  /* CONTENEDOR 4 */
+  .section {
+    padding: 10px 20px;
+    text-align: center;
+    
+  }
+  
+  .section h2 {
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 30px;
+        color: #4a5d3a;
+        font-size: 30px;
+      }
+  .img-flor{
+    width: 80px;
+  }
+  
+  
+  .section p {
+        max-width: 500px;
+        margin: auto;
+        line-height: 1.6;
+      }
+
+    .tiara {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        padding: 12px 20px;
+        background: #6d7f4f;
+        color: white;
+        border-radius: 25px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .countdown {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+  
+  /* TARJETAS */
+  .card {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* IMAGEN CON FRASE*/
+  .Imgtiana {
+    height: 420px;
+    background: url('Imagenes/Img6.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+  }
+  
+  .Imgtiana p {
+    font-size: 1.2rem;
+    max-width: 400px;
+  }
+
+  .section-title{
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 30px;
+        color: #4a5d3a;
+        font-size: 30px;
+  }
+
+  .iconos{
+    max-width: 60px;
+  }
+  .icono-ropa{
+    max-width: 100px;
+  }
+  .color-vesti{
+        max-width: 300px;
+        margin: auto;
+  }
